@@ -18,74 +18,70 @@
 
     .page {
       width: 100%;
-      max-width: 560px;
+      max-width: 520px;
       margin: 0 auto;
-      padding: 20px 14px 34px;
+      padding: 18px 14px 28px;
     }
 
     .hero {
       text-align: center;
     }
 
-    .logo-wrap {
-      display: flex;
-      justify-content: center;
+    .logo {
+      width: 110px;
+      border-radius: 16px;
+      background: #fff;
+      padding: 8px;
       margin-bottom: 10px;
     }
 
-    .logo {
-      width: 120px;
-      border-radius: 18px;
-      background: #fff;
-      padding: 10px;
-      box-shadow: 0 10px 25px rgba(0,0,0,0.2);
-    }
-
     h1 {
-      margin: 0 0 8px;
-      font-size: 46px;
+      margin: 0;
+      font-size: 42px;
       font-weight: 900;
     }
 
     .subtitle {
-      margin: 0;
-      font-size: 22px;
+      margin-top: 6px;
+      font-size: 20px;
       font-weight: 800;
     }
 
     .desc {
-      margin: 12px auto 0;
-      max-width: 440px;
-      font-size: 16px;
-      line-height: 1.45;
-      color: rgba(255,255,255,0.92);
+      margin-top: 10px;
+      font-size: 15px;
+      line-height: 1.4;
+      opacity: 0.9;
     }
 
     .benefits {
       display: grid;
-      gap: 12px;
-      margin-top: 22px;
+      gap: 10px;
+      margin-top: 18px;
     }
 
     .benefit {
       background: rgba(255,255,255,0.12);
-      border-radius: 16px;
-      padding: 16px;
-      font-size: 16px;
+      padding: 14px;
+      border-radius: 14px;
+      font-size: 15px;
       font-weight: 800;
-      text-align: center;
     }
 
-    /* 🔥 MOCKUP PROFISSIONAL REAL */
+    /* 🔥 MOCKUP AJUSTADO */
     .mockup-wrap {
-      margin-top: 22px;
+      margin-top: 18px;
+      display: flex;
+      justify-content: center;
     }
 
     .mockup-frame {
+      width: 100%;
+      max-width: 340px;
       background: #111;
-      padding: 10px;
-      border-radius: 20px;
-      box-shadow: 0 20px 40px rgba(0,0,0,0.35);
+      padding: 6px;
+      border-radius: 18px;
+      box-shadow: 0 15px 30px rgba(0,0,0,0.3);
     }
 
     .mockup {
@@ -94,24 +90,24 @@
       display: block;
     }
 
+    /* 🔥 BOTÕES SEMPRE VISÍVEIS */
     .actions {
       display: grid;
-      gap: 14px;
-      margin-top: 24px;
+      gap: 12px;
+      margin-top: 20px;
     }
 
     .btn {
-      display: block;
+      padding: 15px;
+      border-radius: 14px;
+      font-size: 16px;
+      font-weight: 800;
       text-align: center;
       text-decoration: none;
-      padding: 16px;
-      border-radius: 16px;
-      font-size: 17px;
-      font-weight: 800;
     }
 
     .btn-demo {
-      background: #34d06d;
+      background: #2ecc71;
       color: #fff;
     }
 
@@ -128,31 +124,32 @@
   <main class="page">
 
     <section class="hero">
-      <div class="logo-wrap">
-        <img src="logo-vendix.png" class="logo" />
-      </div>
+      <img src="logo-vendix.png" class="logo" />
 
       <h1>VENDIX</h1>
-      <p class="subtitle">Sistema de vendas completo</p>
-      <p class="desc">
-        Venda, estoque e caixa de forma simples, profissional e acessível em qualquer dispositivo.
-      </p>
+
+      <div class="subtitle">Sistema de vendas completo</div>
+
+      <div class="desc">
+        Venda, estoque e caixa de forma simples e profissional em qualquer dispositivo.
+      </div>
     </section>
 
     <section class="benefits">
       <div class="benefit">✔ Funciona no celular, tablet e computador</div>
-      <div class="benefit">✔ Controle de vendas, estoque e caixa</div>
+      <div class="benefit">✔ Controle total de vendas e estoque</div>
       <div class="benefit">✔ Visual moderno e fácil de usar</div>
-      <div class="benefit">✔ Ideal para pequenos e médios comércios</div>
+      <div class="benefit">✔ Ideal para qualquer comércio</div>
     </section>
 
-    <!-- 🔥 MOCKUP REAL -->
+    <!-- 🔥 MOCKUP CORRIGIDO -->
     <section class="mockup-wrap">
       <div class="mockup-frame">
         <img src="pao_belo.png" class="mockup" />
       </div>
     </section>
 
+    <!-- 🔥 BOTÕES VISÍVEIS -->
     <section class="actions">
       <a href="https://radarjogospro.github.io/pdv-pao-belo/" class="btn btn-demo">
         Ver demonstração
