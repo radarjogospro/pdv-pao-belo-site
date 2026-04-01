@@ -28,32 +28,29 @@
     }
 
     .logo {
-      width: 92px;
-      border-radius: 14px;
+      width: 80px;
+      border-radius: 12px;
       background: #fff;
-      padding: 8px;
+      padding: 6px;
       margin: 0 auto 8px;
       display: block;
-      box-shadow: 0 8px 18px rgba(0,0,0,0.18);
+      box-shadow: 0 6px 14px rgba(0,0,0,0.15);
     }
 
     h1 {
       margin: 0;
-      font-size: 34px;
+      font-size: 32px;
       font-weight: 900;
-      line-height: 1;
     }
 
     .subtitle {
-      margin-top: 8px;
+      margin-top: 6px;
       font-size: 16px;
       font-weight: 800;
-      line-height: 1.2;
     }
 
     .desc {
-      margin: 10px auto 0;
-      max-width: 420px;
+      margin-top: 8px;
       font-size: 14px;
       line-height: 1.4;
       opacity: 0.95;
@@ -61,44 +58,46 @@
 
     .benefits {
       display: grid;
-      gap: 10px;
-      margin-top: 16px;
+      gap: 8px;
+      margin-top: 14px;
     }
 
     .benefit {
       background: rgba(255,255,255,0.12);
-      padding: 13px 14px;
-      border-radius: 14px;
+      padding: 12px;
+      border-radius: 12px;
       font-size: 14px;
       font-weight: 800;
       text-align: center;
     }
 
+    /* MOCKUP AJUSTADO (PEQUENO E CENTRAL) */
     .mockup-wrap {
-      margin-top: 16px;
+      margin-top: 14px;
       display: flex;
       justify-content: center;
     }
 
     .mockup-frame {
       width: 100%;
-      max-width: 280px;
+      max-width: 240px;
       background: #111;
-      padding: 5px;
-      border-radius: 16px;
-      box-shadow: 0 12px 24px rgba(0,0,0,0.28);
+      padding: 4px;
+      border-radius: 14px;
+      box-shadow: 0 10px 22px rgba(0,0,0,0.28);
     }
 
     .mockup {
       width: 100%;
       display: block;
-      border-radius: 11px;
+      border-radius: 10px;
     }
 
+    /* BOTÕES SEMPRE VISÍVEIS */
     .actions {
       display: grid;
       gap: 10px;
-      margin-top: 16px;
+      margin-top: 14px;
     }
 
     .btn {
@@ -106,13 +105,13 @@
       text-align: center;
       text-decoration: none;
       padding: 14px;
-      border-radius: 14px;
-      font-size: 16px;
+      border-radius: 12px;
+      font-size: 15px;
       font-weight: 800;
     }
 
     .btn-demo {
-      background: #31cc6d;
+      background: #2ecc71;
       color: #fff;
     }
 
@@ -121,67 +120,34 @@
       color: #6f3817;
     }
 
-    @media (max-width: 420px) {
-      .page {
-        padding: 14px 12px 22px;
-      }
-
-      .logo {
-        width: 84px;
-      }
-
-      h1 {
-        font-size: 30px;
-      }
-
-      .subtitle {
-        font-size: 15px;
-      }
-
-      .desc {
-        font-size: 13px;
-      }
-
-      .benefit {
-        font-size: 13px;
-        padding: 12px;
-      }
-
-      .mockup-frame {
-        max-width: 250px;
-      }
-
-      .btn {
-        font-size: 15px;
-        padding: 13px;
-      }
-    }
   </style>
 </head>
+
 <body>
+
   <main class="page">
+
     <section class="hero">
       <img src="logo-vendix.png" alt="Logo VENDIX" class="logo" />
 
       <h1>VENDIX</h1>
 
-      <div class="subtitle">Sistema de vendas completo</div>
+      <div class="subtitle">PDV simples e profissional</div>
 
       <div class="desc">
-        Venda, estoque e caixa de forma simples e profissional em qualquer dispositivo.
+        Controle vendas, estoque e caixa em qualquer dispositivo.
       </div>
     </section>
 
     <section class="benefits">
       <div class="benefit">✔ Funciona no celular, tablet e computador</div>
       <div class="benefit">✔ Controle total de vendas e estoque</div>
-      <div class="benefit">✔ Visual moderno e fácil de usar</div>
       <div class="benefit">✔ Ideal para qualquer comércio</div>
     </section>
 
     <section class="mockup-wrap">
       <div class="mockup-frame">
-        <img src="pao_belo.png" alt="Demonstração do sistema" class="mockup" />
+        <img src="pao_belo.png" alt="Sistema VENDIX" class="mockup" />
       </div>
     </section>
 
@@ -194,6 +160,8 @@
         Falar no WhatsApp
       </a>
     </section>
+
   </main>
+
 </body>
 </html>
