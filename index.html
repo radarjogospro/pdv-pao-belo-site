@@ -13,14 +13,14 @@
       margin: 0;
       font-family: Arial, Helvetica, sans-serif;
       background: linear-gradient(180deg, #6f3817 0%, #b46a27 100%);
-      color: #ffffff;
+      color: #fff;
     }
 
     .page {
       width: 100%;
       max-width: 520px;
       margin: 0 auto;
-      padding: 18px 14px 28px;
+      padding: 16px 14px 24px;
     }
 
     .hero {
@@ -28,86 +28,91 @@
     }
 
     .logo {
-      width: 110px;
-      border-radius: 16px;
+      width: 92px;
+      border-radius: 14px;
       background: #fff;
       padding: 8px;
-      margin-bottom: 10px;
+      margin: 0 auto 8px;
+      display: block;
+      box-shadow: 0 8px 18px rgba(0,0,0,0.18);
     }
 
     h1 {
       margin: 0;
-      font-size: 42px;
+      font-size: 34px;
       font-weight: 900;
+      line-height: 1;
     }
 
     .subtitle {
-      margin-top: 6px;
-      font-size: 20px;
+      margin-top: 8px;
+      font-size: 16px;
       font-weight: 800;
+      line-height: 1.2;
     }
 
     .desc {
-      margin-top: 10px;
-      font-size: 15px;
+      margin: 10px auto 0;
+      max-width: 420px;
+      font-size: 14px;
       line-height: 1.4;
-      opacity: 0.9;
+      opacity: 0.95;
     }
 
     .benefits {
       display: grid;
       gap: 10px;
-      margin-top: 18px;
+      margin-top: 16px;
     }
 
     .benefit {
       background: rgba(255,255,255,0.12);
-      padding: 14px;
+      padding: 13px 14px;
       border-radius: 14px;
-      font-size: 15px;
+      font-size: 14px;
       font-weight: 800;
+      text-align: center;
     }
 
-    /* 🔥 MOCKUP AJUSTADO */
     .mockup-wrap {
-      margin-top: 18px;
+      margin-top: 16px;
       display: flex;
       justify-content: center;
     }
 
     .mockup-frame {
       width: 100%;
-      max-width: 340px;
+      max-width: 280px;
       background: #111;
-      padding: 6px;
-      border-radius: 18px;
-      box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+      padding: 5px;
+      border-radius: 16px;
+      box-shadow: 0 12px 24px rgba(0,0,0,0.28);
     }
 
     .mockup {
       width: 100%;
-      border-radius: 12px;
       display: block;
+      border-radius: 11px;
     }
 
-    /* 🔥 BOTÕES SEMPRE VISÍVEIS */
     .actions {
       display: grid;
-      gap: 12px;
-      margin-top: 20px;
+      gap: 10px;
+      margin-top: 16px;
     }
 
     .btn {
-      padding: 15px;
+      display: block;
+      text-align: center;
+      text-decoration: none;
+      padding: 14px;
       border-radius: 14px;
       font-size: 16px;
       font-weight: 800;
-      text-align: center;
-      text-decoration: none;
     }
 
     .btn-demo {
-      background: #2ecc71;
+      background: #31cc6d;
       color: #fff;
     }
 
@@ -116,15 +121,47 @@
       color: #6f3817;
     }
 
+    @media (max-width: 420px) {
+      .page {
+        padding: 14px 12px 22px;
+      }
+
+      .logo {
+        width: 84px;
+      }
+
+      h1 {
+        font-size: 30px;
+      }
+
+      .subtitle {
+        font-size: 15px;
+      }
+
+      .desc {
+        font-size: 13px;
+      }
+
+      .benefit {
+        font-size: 13px;
+        padding: 12px;
+      }
+
+      .mockup-frame {
+        max-width: 250px;
+      }
+
+      .btn {
+        font-size: 15px;
+        padding: 13px;
+      }
+    }
   </style>
 </head>
-
 <body>
-
   <main class="page">
-
     <section class="hero">
-      <img src="logo-vendix.png" class="logo" />
+      <img src="logo-vendix.png" alt="Logo VENDIX" class="logo" />
 
       <h1>VENDIX</h1>
 
@@ -142,14 +179,12 @@
       <div class="benefit">✔ Ideal para qualquer comércio</div>
     </section>
 
-    <!-- 🔥 MOCKUP CORRIGIDO -->
     <section class="mockup-wrap">
       <div class="mockup-frame">
-        <img src="pao_belo.png" class="mockup" />
+        <img src="pao_belo.png" alt="Demonstração do sistema" class="mockup" />
       </div>
     </section>
 
-    <!-- 🔥 BOTÕES VISÍVEIS -->
     <section class="actions">
       <a href="https://radarjogospro.github.io/pdv-pao-belo/" class="btn btn-demo">
         Ver demonstração
@@ -159,8 +194,6 @@
         Falar no WhatsApp
       </a>
     </section>
-
   </main>
-
 </body>
 </html>
